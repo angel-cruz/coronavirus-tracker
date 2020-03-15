@@ -13,7 +13,5 @@ public class FirstLambda {
 
     File[] files = dir.listFiles(filter);
 
-    for (File f : files) {
-        System.out.println(f);
-    }
+    
 }
