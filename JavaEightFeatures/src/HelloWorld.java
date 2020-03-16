@@ -14,6 +14,7 @@ public class HelloWorld {
         while(it.hasNext()){
             Integer i = it.next();
             System.out.println("Iterator Value::"+i);
+            //
         }
         //traversing through forEach method of Iterable with anonymous class
         myList.forEach(new Consumer<Integer>(){
